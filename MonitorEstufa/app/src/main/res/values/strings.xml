@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MonitorEstufa</string>
+    <string name="title_home">Configs.</string>
+    <string name="title_dashboard">Inicio</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
