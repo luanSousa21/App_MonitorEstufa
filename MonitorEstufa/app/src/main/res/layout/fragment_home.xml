@@ -11,12 +11,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="Temperatura"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDtAtt"
         app:layout_constraintVertical_bias="0.284" />
 
     <EditText
@@ -58,4 +58,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtLumens"
         app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtAtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:text="Última Atualização"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtDtAtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="01/01/2000 00:00"
+        app:layout_constraintStart_toEndOf="@+id/txtAtt"
+        app:layout_constraintTop_toTopOf="@+id/txtAtt" />
 </androidx.constraintlayout.widget.ConstraintLayout>

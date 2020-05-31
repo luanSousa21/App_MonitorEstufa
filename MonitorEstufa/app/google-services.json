@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "675079967150",
+    "firebase_url": "https://monitorestufa-fae28.firebaseio.com",
+    "project_id": "monitorestufa-fae28",
+    "storage_bucket": "monitorestufa-fae28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675079967150:android:592020b9d76a7c00cbf83f",
+        "android_client_info": {
+          "package_name": "com.example.monitorestufa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "675079967150-m6s4ceqjls9k2j1rb21kt72t3h0997u9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.monitorestufa",
+            "certificate_hash": "9f1ab7afb4f63661dcd58eb9d9b6b9788f386b17"
+          }
+        },
+        {
+          "client_id": "675079967150-58clllek247kjol3j77cpimrq25htdt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRj9-KyNZqXbGpZliw-PrwtVhArC_NQzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "675079967150-58clllek247kjol3j77cpimrq25htdt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
